@@ -1,0 +1,75 @@
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    background-color: #b6c0b2; 
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #1d428a;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Player Card Styles */
+.player-card {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 1.5rem;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.player-card:hover {
+    transform: translateY(-5px);
+    
+}
+
+.player-rank {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #c8102e;
+    margin-right: 20px;
+    ;
+}
+
+.player-image img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%; 
+    border: 3px solid #f4f4f9;
+    margin-right: 20px;
+}
+
+.player-info h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #1d428a;
+}
+
+.player-info p {
+    margin-bottom: 0;
+}
+
+
+
